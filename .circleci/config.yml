@@ -18,3 +18,8 @@ workflows:
   test-solutions:
     jobs:
       - test-solutions
+      
+@type {import('jest').Config} */
+const config = {
+    workerIdleMemoryLimit: '512MB',
+};
